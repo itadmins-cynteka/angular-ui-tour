@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("angular"), require("angular-sanitize"), require("angular-scroll"), require("angular-hotkeys"), require("angular-bind-html-compile"), require("Tether"), require("Hone"));
+		module.exports = factory(require("angular"), require("angular-sanitize"), require("angular-scroll"), require("angular-hotkeys"), require("angular-bind-html-compile"), require("tether"), require("hone"));
 	else if(typeof define === 'function' && define.amd)
-		define(["angular", "angular-sanitize", "angular-scroll", "angular-hotkeys", "angular-bind-html-compile", "Tether", "Hone"], factory);
+		define(["angular", "angular-sanitize", "angular-scroll", "angular-hotkeys", "angular-bind-html-compile", "tether", "hone"], factory);
 	else if(typeof exports === 'object')
-		exports["uiTour"] = factory(require("angular"), require("angular-sanitize"), require("angular-scroll"), require("angular-hotkeys"), require("angular-bind-html-compile"), require("Tether"), require("Hone"));
+		exports["uiTour"] = factory(require("angular"), require("angular-sanitize"), require("angular-scroll"), require("angular-hotkeys"), require("angular-bind-html-compile"), require("tether"), require("hone"));
 	else
-		root["uiTour"] = factory(root["angular"], root["angular-sanitize"], root["angular-scroll"], root["angular-hotkeys"], root["angular-bind-html-compile"], root["Tether"], root["Hone"]);
+		root["uiTour"] = factory(root["angular"], root["angular-sanitize"], root["angular-scroll"], root["angular-hotkeys"], root["angular-bind-html-compile"], root["tether"], root["hone"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_6__, __WEBPACK_EXTERNAL_MODULE_7__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
